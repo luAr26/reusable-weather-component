@@ -1,0 +1,80 @@
+.card {
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.25);
+  transition: background-color 0.5s ease-in;
+  cursor: pointer;
+}
+
+.card,
+.card-header,
+.card-footer {
+  border-width: 0;
+  border-radius: 0;
+}
+
+.card-header,
+.card-footer {
+  padding: 1rem 0.5rem;
+  background-color: transparent;
+}
+
+#location-wrapper {
+  font-size: 1.1rem;
+}
+
+#location-icon {
+  position: relative;
+  top: 1px;
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+}
+
+.card-block {
+  padding: 1.5rem 0;
+}
+
+.card-block,
+.card-footer {
+  text-align: center;
+}
+
+p {
+  margin: 0.2rem;
+}
+
+p:not(.unit-label) {
+  text-transform: uppercase;
+}
+
+#indicator {
+  height: 165px;
+  position: relative;
+}
+
+#indicator i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  margin: -8% 0 0 -25%;
+}
+
+canvas {
+  max-width: 250px;
+  margin-bottom: 1rem;
+}
+
+.card-footer {
+  padding-bottom: 0.5rem;
+}
+
+#detail-row {
+  font-size: 0.8rem;
+}
+
+#helper-row {
+  padding: 0.5rem;
+}
+
+#helper-row .text-muted {
+  color: rgba(255, 255, 255, 0.75) !important;
+}

@@ -1,8 +1,8 @@
 # Angular 2 starter project with Bootstrap 4
 
-In the app/weather-widget folder create a constants folder.
+In the app/weather-widget folder create a `constants` folder.
 
-In the constants folder create a constants.ts file with the following content:
+In the `constants` folder create a `constants.ts` file with the following content:
 
     export const FORECAST_KEY = 'YOUR_KEY';
     export const FORECAST_ROOT = 'https://api.darksky.net/forecast/';
